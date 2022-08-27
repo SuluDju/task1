@@ -1,0 +1,40 @@
+.header {
+  margin-right: 0;
+  margin-left: 0;
+}
+.header_row {
+  display: inline;
+  
+}
+.header_text {
+  ul {
+    display: flex;
+    /* padding-right: 15px;*/
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  li {
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+  }
+}
+.link {
+  //writing-mode: vertical-rl;//
+
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  color: #828282;
+  writing-mode: vertical-rl;
+
+}
+.name {
+  line-height: 50px;
+  font-display: 50px;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: -10px;
+  margin-left: -90px;
+  
+}
